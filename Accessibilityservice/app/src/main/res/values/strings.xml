@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Accessibilityservice</string>
+    <string name="accessibility_description">접근성 권한을 필요로 합니다.</string>
+
+    <string name="loading">Loading</string>
+    <string name="menu_download">설치된 앱</string>
+    <string name="menu_all">시스템 포함</string>
+
+    <string name="msg">Please enable all permission</string>
+    <string name="title_activity_setting_app_lock">SettingAppLock</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>
