@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/getBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_border"
+        android:text="날씨보기"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/textT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_marginRight="6dp"
+            android:text="대기상태 확인하러가기"/>
+
+        <kr.go.seoul.airquality.AirQualityButtonTypeA
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ins_mini"
+            android:layout_marginLeft="7dp">
+        </kr.go.seoul.airquality.AirQualityButtonTypeA>
+    </LinearLayout>
+
+
+</LinearLayout>

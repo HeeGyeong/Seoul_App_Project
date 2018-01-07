@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:id="@+id/RL1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="본 정보는 서울시에서 제공하는 데이터를 사용하였습니다."
+            android:id="@+id/txt1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자전거 경로가 아닌 서울시에서 제공하는\n자전거를 빌릴수 있는 대여소 위치를 제공합니다."
+            android:id="@+id/txt3"
+            android:layout_below="@id/txt1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="유료 혹은 무료로 자전거를 대여할 수 있고\n자전거 이용에 비용이 청구될 수 있습니다."
+            android:id="@+id/txt2"
+            android:layout_below="@id/txt3"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:id="@+id/LL"
+        android:layout_below="@id/RL1">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list"
+            android:layout_marginTop ="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="보러가기"
+            android:id="@+id/nextAct"
+            android:onClick="click"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
