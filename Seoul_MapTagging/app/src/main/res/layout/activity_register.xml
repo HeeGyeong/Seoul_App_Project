@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9ABBE2"
+    android:gravity="center"
+    android:paddingTop="56dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_theme" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/btn_white"
+                    android:drawableLeft="@drawable/icon_check"
+                    android:hint="닉네임을 입력해주세요"
+                    android:textSize="13dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textCursorDrawable="@null" />
+                <Button
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:id="@+id/submit"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_check"
+                    android:text="확인"
+                    style="?android:attr/borderlessButtonStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:text="CopyLight(C) 2017. SkhuTeam12. All rights reserved."
+            android:textColor="#ffffff"
+            android:textSize="7pt"/>
+    </FrameLayout>
+</LinearLayout>

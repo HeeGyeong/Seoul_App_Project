@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Seoul_MapTagging</string>
+    <string name="title_activity_map_tagging">MapTagging</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="kakao_app_key">20f431566f4df1a182333ecc61ea87ce</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="msg">앱 사용을 위해 모든 권한을 설정해 주세요.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/conven1"
+            android:title="공중 화장실"
+            android:icon="@drawable/icon_wc"/>
+        <item
+            android:id="@+id/conven2"
+            android:icon="@drawable/icon_wifi"
+            android:title="공공 와이파이" />
+        <item
+            android:id="@+id/conven3"
+            android:icon="@drawable/icon_lib"
+            android:title="도서관 및 서점" />
+        <item
+            android:id="@+id/conven4"
+            android:icon="@drawable/icon_park"
+            android:title="산과 공원" />
+        <item
+            android:id="@+id/conven5"
+            android:icon="@drawable/icon_bc"
+            android:title="공공 자전거 대여시설" />
+        <item
+            android:id="@+id/conven6"
+            android:icon="@drawable/icon_taxi"
+            android:title="택시 승차대" />
+        <item
+            android:id="@+id/conven7"
+            android:icon="@drawable/icon_wheel"
+            android:title="전동휠체어 충전기" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/icon_email"
+                android:title="문의 사항" />
+        </menu>
+    </item>
+
+
+</menu>

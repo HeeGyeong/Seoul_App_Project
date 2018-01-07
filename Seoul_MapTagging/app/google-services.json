@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "775529795273",
+    "firebase_url": "https://fir-base-2722d.firebaseio.com",
+    "project_id": "fir-base-2722d",
+    "storage_bucket": "fir-base-2722d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775529795273:android:aa7b5b9b01e56976",
+        "android_client_info": {
+          "package_name": "com.example.heegyeong.seoul_maptagging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775529795273-pplo8shq1jfj0u3so23k51676p1glfks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0CdxETBAbjuV85gELHRSehryfAyQcXU4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

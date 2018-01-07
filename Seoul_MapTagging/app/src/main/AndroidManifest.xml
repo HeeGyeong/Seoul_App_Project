@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.heegyeong.seoul_maptagging">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <!--전화와 메시지를 보내기 위한 퍼미션-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-sdk tools:overrideLibrary="com.firebase.ui"/>
+
+    <application
+        android:name=".FirebaseLife"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="알쓸설정"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="방문 지역 선택"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConvenActivity"
+            android:label="찾는 시설 선택"
+            android:noHistory="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapTagging"
+            android:label="지도"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="상세정보"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="false">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BookmarkActivity"
+            android:label="즐겨찾기"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:noHistory="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:noHistory="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

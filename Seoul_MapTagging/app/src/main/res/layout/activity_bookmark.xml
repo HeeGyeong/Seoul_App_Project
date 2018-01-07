@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/loc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="강북구" />
+
+                <RadioButton
+                    android:id="@+id/loc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="강동구" />
+
+                <RadioButton
+                    android:id="@+id/loc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="강남구" />
+
+                <RadioButton
+                    android:id="@+id/loc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="강서구" />
+
+                <RadioButton
+                    android:id="@+id/loc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="관악구" />
+
+                <RadioButton
+                    android:id="@+id/loc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="광진구" />
+
+                <RadioButton
+                    android:id="@+id/loc7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="구로구" />
+
+                <RadioButton
+                    android:id="@+id/loc8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="금천구" />
+
+                <RadioButton
+                    android:id="@+id/loc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="노원구" />
+
+                <RadioButton
+                    android:id="@+id/loc10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="도봉구" />
+
+                <RadioButton
+                    android:id="@+id/loc11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="동대문구" />
+
+                <RadioButton
+                    android:id="@+id/loc12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="동작구" />
+
+                <RadioButton
+                    android:id="@+id/loc13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="마포구" />
+
+                <RadioButton
+                    android:id="@+id/loc14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="서대문구" />
+
+                <RadioButton
+                    android:id="@+id/loc15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="서초구" />
+
+                <RadioButton
+                    android:id="@+id/loc16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성동구" />
+
+                <RadioButton
+                    android:id="@+id/loc17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성북구" />
+
+                <RadioButton
+                    android:id="@+id/loc18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="송파구" />
+
+                <RadioButton
+                    android:id="@+id/loc19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="양천구" />
+
+                <RadioButton
+                    android:id="@+id/loc20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="영등포구" />
+
+                <RadioButton
+                    android:id="@+id/loc21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="용산구" />
+
+                <RadioButton
+                    android:id="@+id/loc22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="은평구" />
+
+                <RadioButton
+                    android:id="@+id/loc23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="종로구" />
+
+                <RadioButton
+                    android:id="@+id/loc24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="중구" />
+
+                <RadioButton
+                    android:id="@+id/loc25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="중랑구" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn1"
+                android:text="공중 화장실"
+                android:textSize="8pt"
+                android:background="@drawable/btn_bg"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/toilet"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn2"
+                android:text="공공 와이파이"
+                android:textSize="8pt"
+
+                android:background="@drawable/btn_bg"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/wifi"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn3"
+                android:text="도서관 및 서점"
+                android:textSize="8pt"
+
+                android:background="@drawable/btn_bg"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/library"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn4"
+                android:text="산과 공원"
+                android:textSize="8pt"
+
+                android:background="@drawable/btn_bg"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/park"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn5"
+                android:background="@drawable/btn_bg"
+                android:text="공공 자전거 대여시설"
+                android:textSize="8pt"
+
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/bc"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn6"
+
+                android:text="택시 승차대"
+                android:textSize="8pt"
+
+                android:background="@drawable/btn_bg"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/taxi"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/btn7"
+                android:text="전기휠체어 충전기"
+                android:textSize="8pt"
+
+                android:background="@drawable/btn_bg"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/wheel"
+                style="?android:attr/borderlessButtonStyle"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
