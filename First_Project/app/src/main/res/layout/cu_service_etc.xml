@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="편의점 결제 서비스"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="온라인 및 모바일에서 상품/서비스를 구매하고 CU에서 결제할 수 있는 옴니채널 결제서비스로 24시간 365일 가까운 CU에서 결제가 가능하여 더욱 편리합니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11번가, 바보사랑 사이트에서만 이용이 가능한 서비스입니다."
+                android:layout_marginLeft="15dp"
+                android:textColor="#fa8072"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="휴대폰 충전 &amp; 알뜰폰"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 휴대폰 충전"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- CU에서는 24시간 365일 핸드폰 충전 서비스를 제공받으실 수 있습니다"
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="소요 시간 및 이용금액 : "
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 약 30분, 1,500원 "
+                    android:textSize="10dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 알뜰폰"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 지금 사용하는 핸드폰에 유심만 변경해도 알뜰폰이 됩니다. "
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CU에서 알뜰폰 통신사 유심을 구입하실 수 있으며,  가입비, 약정,"
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부가서비스 없는 알뜰폰 통신사 유심으로 바꾸고 통신비를 절약하세요. "
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/service_detail_life"
+                android:onClick="onClickDetail"
+                android:text="생활 서비스 자세히보기"
+                android:background="@drawable/style_round_cu"
+                android:layout_gravity="right"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CD기 및 티켓 판매"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CU에 설치되어 있는 CD/ATM기를 통하여 현금인출, 계좌이체, 신용카드 현금서비스 등의 금융서비스를 이용하실 수 있습니다. 또한 CD/ATM기를 통해 다양한 티켓 예매가 가능합니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 입장권"
+                android:layout_marginLeft="30dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sports_t"
+                    android:text="- 스포츠 티켓 :"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sports_d"
+                    android:layout_toRightOf="@id/sports_t"
+                    android:text=" 교환 절차 없이 바로 입장이 가능하며, 환불하실 경우는
+4시간 전에 CU를 통해 가능합니다."
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/water_t"
+                    android:layout_below="@id/sports_d"
+                    android:text="- 워터파크/테마공원 :"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/water_d"
+                    android:layout_toRightOf="@id/water_t"
+                    android:layout_below="@id/sports_d"
+                    android:text=" 전국 워터파크, 테마공원 입장권을
+최고 50% 할인된 가격으로 구매 가능합니다"
+                    android:textSize="10dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="태극기 예약 판매"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="광복 70주년 맞이 “전 국민 나라사랑 태극기 달기 운동” 정부 시행에 맞춰 게양용 태극기를 판매합니다."
+                android:layout_marginLeft="15dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="예약구매 방법 : "
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#fa8072"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="예약 주문 및 결제 > 발주 > 약 3일후 매장 입고 > 매장에서 상품 수취"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="느린 우체통"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CU에서 보내는 감성 엽서로 1년 후에 받는 느린 우체통 편지 서비스 입니다."
+                android:layout_marginLeft="15dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이용 방법 : "
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#fa8072"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="운영 중인 점포에 방문하여 비치된 엽서에 편지를 작성 후 느린 우체통에 엽서를 넣어주세요."
+                    android:textSize="10dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* 별도 비용이 들지 않습니다."
+                android:layout_marginLeft="15dp"
+                android:textSize="10dp"
+                android:textColor="#a9a9a9"/>
+            <!-- padding 추가 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#3cb371"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#00000000"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

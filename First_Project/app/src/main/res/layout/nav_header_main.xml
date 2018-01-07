@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nav_border"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <!-- 이미지 사이즈 조절하면됨. 세로길이 약 625px-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="17pt"
+        android:paddingBottom="8pt"
+        android:src="@drawable/main_image2"
+        android:background="#3cb371"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="편의 기능"
+        android:textColor="#2e8b57"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#2e8b57"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:text="지도 검색                                           "
+        android:id="@+id/nav_b_search"
+        android:drawableRight="@drawable/ic_search_24dp"
+        android:onClick="onNeviButton"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#0f000000"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:text="서비스                                               "
+        android:id="@+id/nav_b_service"
+        android:drawableRight="@drawable/ic_mood_24dp"
+        android:onClick="onNeviButton"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#0f000000"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:text="초기화면 설정                                     "
+        android:id="@+id/nav_b_setting"
+        android:drawableRight="@drawable/ic_settings_24dp"
+        android:onClick="onNeviButton"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#0f000000"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:text="공유하기                                              "
+        android:id="@+id/nav_b_shared"
+        android:drawableRight="@drawable/ic_menu_share"
+        android:onClick="onNeviButton"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#0f000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="서비스"
+        android:textColor="#2e8b57"/>
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#2e8b57"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:text="버전 정보                                            "
+        android:id="@+id/nav_b_version"
+        android:drawableRight="@drawable/ic_menu_send"
+        android:onClick="onNeviButton"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#0f000000"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:text="문의 하기                                            "
+        android:id="@+id/nav_b_other"
+        android:drawableRight="@drawable/ic_more_vert_24dp"
+        android:onClick="onNeviButton"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#0f000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제작 : 성공회대 정통과"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="201233025 유희경"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="201233004 김승욱"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

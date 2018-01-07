@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/list_btn_cu"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cu_logo"
+            android:background="@drawable/button_border"
+            android:onClick="onConvClick"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <ImageButton
+            android:id="@+id/list_btn_gs"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gs25_logo"
+            android:background="@drawable/button_border"
+            android:onClick="onConvClick"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/list_btn_eleven"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:src="@drawable/eleven_logo"
+            android:background="@drawable/button_border"
+            android:onClick="onConvClick"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <ImageButton
+            android:id="@+id/list_btn_mini"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mini_logo"
+            android:background="@drawable/button_border"
+            android:onClick="onConvClick"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_round_eleven">
+
+    <ImageView
+        android:id="@+id/ele_img_bkr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/ele_bkr"/>
+
+    <TextView
+        android:id="@+id/ele_text_bkr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ele_img_bkr"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="베이커리 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/ele_img_chik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ele_img_bkr"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/ele_chik"/>
+
+    <TextView
+        android:id="@+id/ele_text_chik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ele_img_chik"
+        android:layout_below="@id/ele_text_bkr"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="치킨 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/ele_img_coffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ele_img_chik"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/ele_coffe"/>
+
+    <TextView
+        android:id="@+id/ele_text_coffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ele_img_coffe"
+        android:layout_below="@id/ele_text_chik"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="카페 매장"/>
+
+    <ImageView
+        android:id="@+id/ele_img_recall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ele_img_coffe"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/ele_recall"/>
+
+    <TextView
+        android:id="@+id/ele_text_recall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ele_img_recall"
+        android:layout_below="@id/ele_text_coffe"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="20dp"
+        android:text="쇼핑몰 반품 접수 매장"/>
+
+
+    <Button
+        android:id="@+id/ele_btn_etc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ele_text_recall"
+        android:layout_marginTop="10dp"
+        android:text="생활 편의 서비스 보기"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_round_eleven"
+        android:onClick="onClickService"/>
+
+    <Button
+        android:id="@+id/ele_btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ele_btn_etc"
+        android:layout_marginTop="10dp"
+        android:text="서비스 매장 찾기"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_round_eleven"
+        android:onClick="onClickService"/>
+
+</RelativeLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="편의점 캐시 구입/충전"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="편의점 캐시는 온라인 콘텐츠, 쇼핑몰, 게임 캐시,"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="국제전화카드를 구입/충전할 수 있는 서비스입니다."
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현금 인출기"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="다기능 CD기를 이용하면 현금인출, 계좌이체, 신용카드"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현금서비스 등 다양한 금융서비스를 받을 수 있습니다."
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교통카드 충전"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교통카드 충전서비스를 실행하고 있습니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GS25에서 교통 카드로 상품을 구매할 수 있어"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="결제수단의 편의성을 제공하는 유익한 서비스 입니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="복권, 로또, 택배 등 일부상품은 사용이 제한됩니다."
+                android:layout_marginLeft="15dp"
+                android:textColor="#fa8072"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기프트 카드"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GS25에서는 기프트 카드를 운영하고 있으며,"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전국 어디에서나 충전 및 사용이 가능합니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="단, 일부 매장에서는 충전 및 사용이 불가능합니다."
+                android:layout_marginLeft="15dp"
+                android:textColor="#fa8072"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="휴대폰 충전"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24시간 365일 휴대폰 충전 서비스를 제공합니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="급속 충전, 보조배터리 렌탈, 배터리교환(예정)을 제공합니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="점포에 따라 일부 기기의 경우 서비스가 불가능할 수 있습니다."
+                android:layout_marginLeft="15dp"
+                android:textColor="#fa8072"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알뜰쇼핑 상품"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="렌탈, 통신, 여행, 상조상품 등 편의점 속 홈쇼핑을 매장에서"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="확인하세요. 렌탈상품, 통신상품 등의 상품 구비중 입니다."
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:src="#0ffa8072"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/service_detail"
+                android:onClick="onClickDetail"
+                android:text="생활 서비스 자세히보기"
+                android:background="@drawable/style_round_mini"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- padding 추가 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#3cb371"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#00000000"/>
+            <!-- padding 추가 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#3cb371"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#00000000"/>
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

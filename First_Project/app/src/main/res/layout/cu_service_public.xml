@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="공공요금 수납 안내"
+        android:textColor="#8a2be2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#8a2be2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지로에 있는 바코드 정보를 통해 가까운 CU에서 언제, 어디서나 세금 및 공과금을 납부하실 수 있는 서비스입니다"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 세금"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 국세, 지방세"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 공과금"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 전기, 도시가스, 통신, 케이블tv, 신문, 보험료 등"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="참고 사항 : "
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="13dp"
+            android:textColor="#fa8072"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="수납하실 공과금의 종류에 따라 수납방법에 제한이 있는것이 있으니 납부 전 확인 바랍니다."/>
+        </LinearLayout>
+
+</LinearLayout>

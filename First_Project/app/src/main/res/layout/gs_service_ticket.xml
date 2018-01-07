@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="티켓발권 서비스"
+        android:textColor="#4169e1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#4169e1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전국 GS25에 설치되어있는 CD/ATM기를 통하여"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 다양한 티켓 발권이 가능합니다."
+        android:layout_marginLeft="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="발권 가능한 티켓"
+        android:layout_marginTop="10dp"
+        android:textColor="#4169e1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#4169e1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 프로 스포츠 입장권"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 티켓 발권 후 바로 입장이 가능하며,"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예매/취소는 경기 전일 18시까지 GS25를 통하여 가능합니다."
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:src="#0f2e8b57"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 테마파크 입장권"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 국내 최대의 테마파크 에버랜드 티켓을 판매합니다."
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재, 삼성카드, BC카드 등 에버랜드 제휴카드를
+이용하여 구매할 경우 50% 할인하여 구매할 수 있습니다."
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="티켓 발권 가능 상품"
+        android:layout_marginTop="10dp"
+        android:textColor="#4169e1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#4169e1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 프로 스포츠"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 프로 야구"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 프로 축구"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 프로 농구"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 프로 배구"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:src="#0f2e8b57"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 놀이공원"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 에버렌드"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"/>
+
+
+</LinearLayout>

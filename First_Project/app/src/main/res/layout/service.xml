@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="서비스 목록으로 이동합니다."
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <ImageButton
+        android:id="@+id/service_btn_cu"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cu_logo"
+        android:background="@drawable/button_border"
+        android:onClick="onServiceClick"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"/>
+
+    <ImageButton
+        android:id="@+id/service_btn_gs"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gs25_logo"
+        android:background="@drawable/button_border"
+        android:onClick="onServiceClick"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <ImageButton
+        android:id="@+id/service_btn_eleven"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:src="@drawable/eleven_logo"
+        android:background="@drawable/button_border"
+        android:onClick="onServiceClick"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"/>
+
+    <ImageButton
+        android:id="@+id/service_btn_mini"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mini_logo"
+        android:background="@drawable/button_border"
+        android:onClick="onServiceClick"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"/>
+        </LinearLayout>
+</LinearLayout>

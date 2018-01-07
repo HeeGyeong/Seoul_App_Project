@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_24dp"
+            android:title="Searching" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="setting" />
+        <item
+            android:id="@+id/nav_shared"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Shared" />
+        <item
+            android:id="@+id/nav_version"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Version" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_more_vert_24dp"
+            android:title="Other" />
+    </group>
+
+</menu>

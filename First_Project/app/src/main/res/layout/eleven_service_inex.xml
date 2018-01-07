@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알뜰폰 소개"
+        android:textColor="#3cb371"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#2e8b57"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약정이 없어 부담이 없고, 요금폭탄 걱정은 전혀 없는
+프리피아 골드폰. 동봉된 유심으로 개통 시 3만원 초기 충전금 지원 및 KT끼리 100분 무료통화를 제공."
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 구매 절차"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STEP1."
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"
+            android:textColor="#fa8072"
+            android:id="@+id/step1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/step1"
+            android:text="단말기 구입 후,인터넷(http://ktusim.com) 에서 가입신청"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STEP2."
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"
+            android:textColor="#fa8072"
+            android:id="@+id/step2"
+            android:layout_below="@id/step1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/step2"
+            android:layout_below="@id/step1"
+            android:text="온라인 신청서 작성"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STEP3."
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"
+            android:textColor="#fa8072"
+            android:id="@+id/step3"
+            android:layout_below="@id/step2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/step3"
+            android:layout_below="@id/step2"
+            android:text="개인번호 부여 및 개통 후 사용"
+            android:textSize="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● 주의사항"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 무선인터넷 기능 지원 안 함"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 신용카드 또는 범용공인인증서를 통한 본인 인증 가능한 경우만 가입가능"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 본인 명의로 KT 휴대폰이 3회선 이상인 경우 개통 불가능"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 체납액이 있는 경우 개통 불가능"
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 고객사유로 인한 개통 불가능은 제품이상이 아니며, 이로 인한 환불/반품/교환은 불가능 합니다."
+        android:layout_marginLeft="60dp"
+        android:textSize="10dp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

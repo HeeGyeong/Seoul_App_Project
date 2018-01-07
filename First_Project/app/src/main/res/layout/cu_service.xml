@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_round_cu">
+
+    <ImageView
+        android:id="@+id/cu_img_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cu_hour"/>
+
+    <TextView
+        android:id="@+id/cu_text_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_hour"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:text="24시간 운영 매장"/>
+
+
+    <ImageView
+        android:id="@+id/cu_img_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_hour"
+        android:src="@drawable/cu_post"/>
+
+    <TextView
+        android:id="@+id/cu_text_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_post"
+        android:layout_below="@id/cu_img_hour"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="택배 서비스 제공"/>
+
+
+    <ImageView
+        android:id="@+id/cu_img_baker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_post"
+        android:src="@drawable/cu_baker"/>
+
+    <TextView
+        android:id="@+id/cu_text_baker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_baker"
+        android:layout_below="@id/cu_text_post"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="20dp"
+        android:text="베이커리 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/cu_img_den"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_baker"
+        android:src="@drawable/cu_den"/>
+
+    <TextView
+        android:id="@+id/cu_text_den"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_den"
+        android:layout_below="@id/cu_text_baker"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="20dp"
+        android:text="튀김 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/cu_img_assp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_den"
+        android:src="@drawable/cu_assp"/>
+
+    <TextView
+        android:id="@+id/cu_text_assp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_assp"
+        android:layout_below="@id/cu_text_den"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="에스프레소 커피 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/cu_img_lotto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_assp"
+        android:src="@drawable/cu_lotto"/>
+
+    <TextView
+        android:id="@+id/cu_text_lotto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_lotto"
+        android:layout_below="@id/cu_text_assp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="로또 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/cu_img_toto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_lotto"
+        android:src="@drawable/cu_toto"/>
+
+    <TextView
+        android:id="@+id/cu_text_toto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_toto"
+        android:layout_below="@id/cu_text_lotto"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="토토 판매 매장"/>
+
+    <ImageView
+        android:id="@+id/cu_img_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_toto"
+        android:src="@drawable/cu_cash"/>
+
+    <TextView
+        android:id="@+id/cu_text_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cu_img_cash"
+        android:layout_below="@id/cu_text_toto"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="현금 지급기 보유 매장"/>
+
+    <Button
+        android:id="@+id/cu_btn_etc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_img_cash"
+        android:layout_marginTop="10dp"
+        android:text="생활 편의 서비스 보기"
+        android:background="@drawable/style_round_cu"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickService"/>
+
+    <Button
+        android:id="@+id/cu_btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_btn_etc"
+        android:layout_marginTop="10dp"
+        android:text="서비스 매장 찾기"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_round_cu"
+        android:onClick="onClickService"/>
+
+</RelativeLayout>

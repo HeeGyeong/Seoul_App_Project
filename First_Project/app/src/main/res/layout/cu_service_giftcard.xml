@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gift 카드"
+            android:textColor="#8a2be2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="#8a2be2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자사 기프트카드를 운영하고 있으며, 전국 CU 어디에서나 충전 및 사용이 가능합니다. 카드 당 최초 만원부터 천원 단위로 충전이 가능합니다."
+            android:layout_marginLeft="15dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cu_card1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cu_card2"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● 판매 대행 Gift 카드"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 구글, 틴캐시, 티스토어, 넥슨, 피망, 넷마블 등 다양한 Gift 카드를 판매 중"
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/service_detail_gift"
+            android:onClick="onClickDetail"
+            android:text="모든 Gift 카드 보기"
+            android:background="@drawable/style_round_cu"
+            android:layout_gravity="right"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교통 카드"
+            android:textColor="#8a2be2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="#8a2be2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역 별 맞춤 교통카드 충전 서비스를 제공하고 있으며,
+전국 어느 점포에서나 충전 서비스를 제공 받으실 수 있습니다."
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● 사용 가능 교통카드"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 티머니, 캐시비, 마이비, 하나로카드, 한페이, 신한꿈이카드"
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단, 카드별로 사용 불가능한 지역이 있습니다."
+            android:layout_marginLeft="60dp"
+            android:textColor="#fa8072"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="모바일 상품권"
+            android:textColor="#8a2be2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="#8a2be2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="휴대폰 메시지로 전송되는 바코드 형태의 전자 상품권이며
+CU점포에서 실제 금액처럼 사용하거나 실제 상품과 교환 할수 있는 서비스 입니다."
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● 모바일 상품교환권"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 정해진 상품과 교환 가능한 모바일 상품권"
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● 모바일 금액권"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 해당 금액만큼 현금처럼 이용가능한 모바일 상품권"
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상품 결제 시 구매 상품과 함께 모바일 바코드를 제시해주기만 하면 됩니다."
+            android:layout_marginLeft="30dp"
+            android:textColor="#fa8072"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로또 &amp; 스포츠토토"
+            android:textColor="#8a2be2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="#8a2be2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로또 복권과 스포츠 레저 게임인 스포츠토토를 CU매장에서 편리하게 구매하실 수 있습니다."
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프리페이드 &amp; 모바일바코드"
+            android:textColor="#8a2be2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="#8a2be2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프리페이드는 게임 캐시, 문자/통화상품권, 국제전화카드,
+기타 온라인 콘텐츠 등을 이용할 수 있는 선불형 영수증 상품권입니다"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● 모바일 바코드 충전"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 모바일바코드 충전은 구글Play에서 APP을 다운받은 후,
+가까운 CU에서 간편하게 충전할 수 있는 서비스입니다."
+            android:layout_marginLeft="60dp"
+            android:textSize="10dp"/>
+
+
+        <!-- padding 추가 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="#3cb371"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="#00000000"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

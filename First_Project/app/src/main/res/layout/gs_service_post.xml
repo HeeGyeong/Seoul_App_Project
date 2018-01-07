@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="택배 서비스 안내"
+        android:textColor="#4169e1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="12dp"
+        android:src="#4169e1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GS25에서 24시간 합리적인 가격으로"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="택배 서비스를 이용해보세요."
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/post_simple"/>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="픽업 &amp; 쇼핑몰 거래"
+                android:layout_marginTop="10dp"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 픽업"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 쇼핑몰에서 상품주문 후, 가까운 GS25에서 물건을 찾아가세요."
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEP1."
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"
+                    android:id="@+id/step1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step1"
+                    android:text="픽업가능 쇼핑몰에서 상품 구매 후 배송방법 편의점 Pick-UP 선택"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEP2."
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"
+                    android:id="@+id/step2"
+                    android:layout_below="@id/step1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step2"
+                    android:layout_below="@id/step1"
+                    android:text="편의점 안내 지도창에서 가까운 GS25 선택"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEP3."
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"
+                    android:id="@+id/step3"
+                    android:layout_below="@id/step2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step3"
+                    android:layout_below="@id/step2"
+                    android:text="물건이 도착했다는 SMS를 받으면 해당 편의점에 방문하여 상품수령"
+                    android:textSize="10dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="*수령 시, 본인 신분증, 상품 주문번호가 필요 "
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="4dp"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:src="#0f2e8b57"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 픽업가능 쇼핑몰"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- eSpoir, 알라딘, yes24, ETUDE HOUSE, InterPark, 교보문고"
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DHC, BANDI &amp; LUNI's"
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 쇼핑몰 거래"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 쇼핑몰 반품 및 오픈마켓, 도서몰에서의 개인간 거래시에 이용"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEP1."
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"
+                    android:id="@+id/step_t1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step_t1"
+                    android:text="제휴업체에서 인증번호 부여받음(SMS로 전송)"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEP2."
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"
+                    android:id="@+id/step_t2"
+                    android:layout_below="@id/step_t1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step_t2"
+                    android:layout_below="@id/step_t1"
+                    android:text="가까운 GS25 방문하여 포스트박스 장비에 인증번호 입력"
+                    android:textSize="10dp"
+                    android:id="@+id/trade_text1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step_t2"
+                    android:layout_below="@id/trade_text1"
+                    android:id="@+id/trade_text2"
+                    android:text="> 무게측정 > 운송장 출력"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEP3."
+                    android:layout_marginLeft="60dp"
+                    android:textSize="10dp"
+                    android:textColor="#fa8072"
+                    android:id="@+id/step_t3"
+                    android:layout_below="@id/trade_text2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/step_t3"
+                    android:layout_below="@id/trade_text2"
+                    android:text="포스에서 접수"
+                    android:textSize="10dp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 쇼핑몰거래 제휴업체"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- GS Shop, 현대Hmall, AUCTION, LOTTE.COM, NS홈쇼핑, 알라딘"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교보문고, InterPark, yes24, 번개장터, ANDI &amp; LUNI's"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="셀프25 서비스"
+                android:layout_marginTop="10dp"
+                android:textColor="#4169e1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#4169e1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 셀프25란?"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="고객님이 셀프로 이용할 수 있는 다양한 혜택을 제공하는"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GS25만의 차별화된 서비스입니다. 택배기 화면을 통해 편의점캐시,"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교통카드 잔액조회, 셀프계산대 등의 서비스를 제공하고 있습니다."
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="10dp"/>
+
+            <!-- 안보이는 부분 해결을 위해 padding 추가 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_marginTop="10dp"
+                android:textColor="#3cb371"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#00000000"/>
+            <!-- padding 추가 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#3cb371"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#00000000"/>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

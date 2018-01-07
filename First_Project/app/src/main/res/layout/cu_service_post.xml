@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="택배 서비스 안내"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CU에서는 24시간 365일 택배 접수가 가능하며,
+POSTBOX가 설치된 점포에서는 더욱 저렴한 가격으로 이용이 가능합니다."
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cu_post2"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:src="@drawable/cu_post1"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/service_detail_post"
+                android:onClick="onClickDetail"
+                android:text="택배 화물 추적"
+                android:background="@drawable/style_round_cu"
+                android:layout_gravity="right"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="픽업 서비스 안내"
+                android:textColor="#8a2be2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#8a2be2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="온라인 쇼핑몰에서 상품을 주문하고, 가까운 CU에서 찾을 수 있는 픽업서비스가 가능합니다."
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 사용 안내"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 온라인에서 배송지 선택 시 편의점을 지정하면 주문하신 상품이 지정한 CU로 배송됩니다."
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="본인 확인을 위한 신분증을 가지고 오셔야 합니다."
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"
+                android:textColor="#fa8072"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● 이용 가능 쇼핑몰"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- eSpoir, 알라딘, yse24, ETUDE HOUSE, 인터파크, HYUNDAI.COM,
+교보문고, BANDI/LUNI'S, DHC, 현대Hmall, CJmall"
+                android:layout_marginLeft="60dp"
+                android:textSize="10dp"/>
+
+            <!-- padding 추가 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#3cb371"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:src="#00000000"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

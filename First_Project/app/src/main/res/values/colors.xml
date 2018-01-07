@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- colorPrimary 이 툴바 색상임. 이 부분을 바꾸면 된다.-->
+
+    <color name="CU_title">#00ffff</color>
+    <color name="CU_service">#324f6f</color>
+</resources>
