@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RL1"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:baselineAligned="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:paddingTop="5dp"
+                    android:id="@+id/culText"
+                    android:gravity="center_horizontal"
+                    android:text="더 많은 전시정보 확인"
+                    />
+
+                <kr.go.seoul.culturalevents.CulturalEventButtonTypeA
+                    android:id="@+id/type_a"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+                </kr.go.seoul.culturalevents.CulturalEventButtonTypeA>
+            </LinearLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview2"
+                android:layout_below="@id/RL1"
+                card:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="7dp">
+                    <kr.go.seoul.culturalevents.CulturalEventTypeMini
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/type_mini"
+                        android:layout_below="@id/type_a">
+                    </kr.go.seoul.culturalevents.CulturalEventTypeMini>
+            </android.support.v7.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/RL2"
+                android:layout_marginTop="7dp"
+                android:layout_below="@id/cardview2"
+                android:gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/movebtn"
+                    android:background="@drawable/button_border"
+                    android:text="전시장 가는길 찾기"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/RL3"
+                android:layout_below="@id/RL2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wthbtn"
+                    android:background="@drawable/button_border"
+                    android:text="날씨 및 대기 정보"
+                    android:onClick="click"/>
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview5"
+                android:layout_below="@id/RL3"
+                card:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="7dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="지역을 클릭하면 위치 수정이 가능합니다."
+                        android:textColor="#bebebe"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/txt"/>
+                    <kr.go.seoul.airquality.AirQualityTypeMini
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ins_mini"
+                        android:layout_below="@id/txt">
+                    </kr.go.seoul.airquality.AirQualityTypeMini>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
